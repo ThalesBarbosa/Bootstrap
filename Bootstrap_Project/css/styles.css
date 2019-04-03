@@ -17,7 +17,7 @@ body {
 		text-align: center; 
 	}
 	#header img {
-		margin: 0 auto;
+		margin: 20% 0 auto;
 	}
 	#social {
 		text-align: center;
@@ -30,6 +30,9 @@ body {
 	}
 	#who img {
 		margin-top: 15%;
+	}
+	#footer {
+		text-align: center;
 	}
 }
 
@@ -184,6 +187,7 @@ body {
 
 #customers {
 	padding: 5rem 0;
+	overflow: hidden;
 }
 
 #customers .carousel-indicators li {
@@ -227,8 +231,49 @@ body {
 	padding: 5rem 0;
 }
 
+/* BARCODE */
+
+#barcode {
+	padding: 5rem 0;
+}
+
+#div-externa {
+	position: relative;
+	border: 5px solid #000000;
+}
+
+#barcode .camera {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin-bottom: -350px;
+}
+
+
 /* FOOTER */
 
 #footer {
+	padding: 2rem 0;
+	background-color: #484848;
+	color: white;
+}
+
+#footer a{
+	color: white;
+	transition: all 0.4s ease-in-out;
+}
+
+#footer .fa {
+	padding: 0 5px;
+	transition: all 0.4s ease-in-out;
+}
+
+#footer .fa:hover {
+	color: #be2835;
 	
+}
+
+#footer a:hover {
+	color: #be2835;
 }
